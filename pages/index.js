@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Script from "next/script";
 import Navbar from "../components/Navbar/Navbar";
-
+import Auth from "./accounts/auth/[authType]";
 export default function Home(){
 return (
     <div>
@@ -17,6 +17,7 @@ return (
              <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar/>
+        <Auth/>
     </div>
 )
 

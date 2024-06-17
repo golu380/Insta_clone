@@ -16,7 +16,7 @@ function NavButton({ className, children, handler }) {
 }
 function Navbar() {
   const mounted = true;
-  const user = false;
+  const user = true;
   const alert = {
     message:"hi how are you",
     type:"success"
